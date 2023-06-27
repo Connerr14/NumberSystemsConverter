@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblDec1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblBinary" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtDec1" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="txtBinary" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblDec2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblHex" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtHexiDec" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="txtDec2" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnBinToDec" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDecToHex" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnHexToDec" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDecToBin" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDecToBin" pref="150" max="32767" attributes="0"/>
+                          <Component id="lblHexToDec" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblDecToHex" alignment="1" max="32767" attributes="0"/>
+                          <Component id="lblBinToDec" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                              <Component id="lblSection1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                              <Component id="lblSection2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="238" max="-2" attributes="0"/>
+                              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Component id="lblSection1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDec1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDec1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDecToBin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDecToBin" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBinToDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblBinToDec" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="lblSection2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDec2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDec2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDecToHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDecToHex" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblHex" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHexiDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnHexToDec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblHexToDec" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="--Number Systems--"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSection1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Binary and Decimal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDec1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a decimal number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDec1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a binary number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBinary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSection2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Decimal and Hexidecimal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDec2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a decimal number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDec2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a hexidecimal number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHexiDec">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDecToBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dec. To Bin."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDecToBinActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBinToDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bin. To Dec."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBinToDecActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDecToHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dec. To Hex."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDecToHexActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHexToDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hex. To Dec."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHexToDecActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDecToBin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBinToDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDecToHex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHexToDec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
